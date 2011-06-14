@@ -1,0 +1,7 @@
+<?php foreach($this->items as $item): ?>
+<div>
+	<h1><?php echo $item['description'] ?></h1>
+	<p><?php echo $item['info']; ?></p>
+	<a href="<?php echo $item['url']; ?>">mehr...</a>
+</div>
+<?php endforeach; ?>
